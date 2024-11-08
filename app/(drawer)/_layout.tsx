@@ -20,7 +20,7 @@ const DrawerLayout = () => (
       }}
     />
     <Drawer.Screen
-      name="profile"
+      name="index"
       options={{
         headerTitle: 'Profile',
         drawerLabel: 'Profile',

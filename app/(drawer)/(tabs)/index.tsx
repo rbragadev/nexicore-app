@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <Stack.Screen options={{ title: 'Home' }} />
       <View className="flex-1 items-center justify-center bg-gray-100">
-        <View style={{ width: CARD_WIDTH }} className="rounded-lg bg-blue-500 p-4 shadow-lg">
+        <View style={{ width: CARD_WIDTH }} className="bg-primary rounded-lg p-4 shadow-lg">
           <Text className="text-xl font-bold text-white">User Info</Text>
           <Text className="mt-2 text-lg text-white">Name: {user.name}</Text>
           <Text className="mt-1 text-lg text-white">Email: {user.email}</Text>
