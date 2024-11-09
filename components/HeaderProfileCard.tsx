@@ -22,7 +22,10 @@ export const HeaderProfileCard: React.FC<HeaderProfileCardProps> = ({
       <View className={styles.userInfo}>
         <Text className={styles.userName}>{userName}</Text>
         <View className={styles.userLocationContainer}>
-          <Ionicons name="location-outline" className={styles.userLocationIcon} />
+          <Ionicons
+            name="location-outline"
+            className={styles.userLocationIcon}
+          />
           <Text className={styles.userLocationText}>{userLocation}</Text>
         </View>
       </View>
@@ -42,7 +45,8 @@ export const HeaderProfileCard: React.FC<HeaderProfileCardProps> = ({
 export default HeaderProfileCard;
 
 const styles = {
-  container: 'm-md flex-row items-center justify-between p-4 bg-white rounded-lg shadow-md',
+  container:
+    'm-md flex-row items-center justify-between p-4 bg-white rounded-lg shadow-md',
   avatar: 'w-12 h-12 rounded-full',
   userInfo: 'flex-1 ml-4',
   userName: 'text-lg font-bold text-black',

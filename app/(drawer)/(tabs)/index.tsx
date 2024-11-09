@@ -1,6 +1,6 @@
 import { Stack } from 'expo-router';
-import React from 'react';
 
+import AppointmentCard from '~/components/AppointmentCard';
 import HeaderProfileCard from '~/components/HeaderProfileCard';
 
 export default function Home() {
@@ -13,6 +13,7 @@ export default function Home() {
         userLocation="São Paulo, Brasil"
         notificationCount={3}
       />
+      <AppointmentCard />
     </>
   );
 }
